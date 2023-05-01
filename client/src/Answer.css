@@ -1,0 +1,30 @@
+.answer-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: 50px; /* add some margin to the right */
+    width: 50%; /* take up only half the width of the screen */
+    position: absolute;
+    right: 0; /* position the container on the right side */
+  }
+
+  
+  .answer {
+    margin: 10px;
+  }
+  
+  .read-more-btn {
+    display: inline-block;
+    background-color: #3a795a;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #61bc7c;
+  }
+  

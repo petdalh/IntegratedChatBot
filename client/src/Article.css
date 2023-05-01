@@ -1,0 +1,55 @@
+.wrapper {
+    display: flex;
+    background-color: black;
+  }
+  
+  .articles-container {
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-right: 25px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .test-container {
+    flex: 1;
+    margin-top: 100px;
+    padding-left: 25px;
+    background-color: grey;
+    border-radius: 10px;
+    max-height: calc(100vh - 100px); /* subtract the margin-top */
+    overflow-y: auto;
+    position: sticky; /* make the container sticky */
+    top: 100px; /* set the top position to match the margin-top */
+  }
+  
+  .article {
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .article img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: 100%; /* make all images the same width */
+    height: 200px; /* make all images the same height */
+  }
+  
+  .read-more-btn {
+    display: inline-block;
+    background-color: #3a795a;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #61bc7c;
+  }
+  
